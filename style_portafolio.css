@@ -1,0 +1,92 @@
+/* Fuente personalizada */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Gloock&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    background-color: #000231; 
+	}
+/* MENU */
+.navbar {
+    padding: .5rem;
+    background-color: #B5CEF1; 
+	}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+	width: 20px;
+}
+
+/* Estilos para el carrusel */
+.gallery {
+    max-width: 100%; /* Ancho máximo del contenedor */
+    overflow-x:auto; /* Permite el desplazamiento horizontal */
+    white-space: nowrap;
+    padding: 10px 0; /* Espaciado interior */
+    margin: 0 -10px; /* Ajuste de márgenes para evitar desbordamiento */
+    display: flex; /* Usa flexbox para el alineamiento de los elementos */
+    gap: 50px; /* Espacio entre las imágenes */
+    scrollbar-width: none; /* Oculta la barra de desplazamiento */
+    border: 15px solid blue ; /* Borde azul */
+    border-style:ridge; /* Borde en recuadro */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Sombra suave */
+}
+
+
+.gallery::-webkit-scrollbar {
+    display: none; /* Oculta la barra de desplazamiento en navegadores WebKit */
+}
+
+.gallery a {
+    flex: 0 0 auto; /* No se expanden ni se contraen */
+    margin: 0; /* Elimina los márgenes externos */
+    transition: transform 0.3s; /* Transición suave */
+}
+
+.gallery a:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el ratón */
+}
+
+.gallery img {
+    max-width: 50%; /* Limita el tamaño máximo al ancho del contenedor */
+    height: auto;
+	border-style: groove;
+	border-radius: 0%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Sombra suave */
+}
+
+/* Estilos para el título de secciones */
+.display-1 {
+    color: white; /* Color blanco oscuro para los títulos */
+    font-family: 'Gloock'; /* Fuente personalizada */
+	font-size: 35pt;
+    text-align: center;
+    padding: 20px 0; /* Espaciado interior */
+}
+
+.portafolio p {
+font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el menú de navegación */
+.navbar {
+      padding: .5rem;
+    background-color: #B5CEF1;
+	
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos para el contenido de la sección */
+.contenido-seccion {
+    color: white; /* Texto en blanco */
+    text-align: center; /* Centra el texto */
+}
+
+.contenido-seccion p {
+    color: #FFFFFF; /* Color de texto blanco para párrafos */
+}
